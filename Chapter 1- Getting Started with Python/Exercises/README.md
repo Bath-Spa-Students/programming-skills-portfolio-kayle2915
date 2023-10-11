@@ -39,7 +39,7 @@ Write a Python program to display the current date and time.
 &nbsp;
 &nbsp;
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
-Write three strings in different variables and print the output as one string.
+Write three strings in different variables and print the output as one string.	
 &nbsp;
 &nbsp;
 &nbsp;
