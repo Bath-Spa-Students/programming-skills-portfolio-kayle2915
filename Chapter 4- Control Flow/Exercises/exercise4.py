@@ -1,7 +1,7 @@
 # a persons stage of life 
 age = int(input("a persons age: "))
 
-# persons stage of life
+
 if age < 2:
     print("that person is a baby")
 
