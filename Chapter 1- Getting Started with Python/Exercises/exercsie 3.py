@@ -1,3 +1,5 @@
+# current date in UAE 
+
 import datetime
 current_date = datetime.datetime.now()
 
