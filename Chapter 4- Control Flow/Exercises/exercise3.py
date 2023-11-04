@@ -12,8 +12,7 @@ if alien_color == "yellow":
 if alien_color == "red":
     print("you just earned 15 points")
 
-else:
-    print("invalid output")
+
 
 
 
