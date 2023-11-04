@@ -1,18 +1,24 @@
-age_msg = "Enter the person's age: (Enter 'exit' when finished): "
+# movie theater ticket price
+
+age = ("enter the persons age: ")
+age +=("enter 'exit' once finish: ")
 
 while True:
-    age = input(age_msg)
-    if age.lower() == 'exit':
+    person = input(age)
+    if person == 'exit':
         break
-    age = int(age)
+    person = int(person)
+  
+# determining the ticket prices base on persons age
 
-    # Determine the ticket prices based on the person's age
-    if age < 3:
-        print("The tickets are free.")
-    elif age < 13:
-        print("The ticket is $10.")
+    if person < 3:
+        print("the tickets are free")
+
+    elif person < 13:
+        print("the ticket is 10$")
+
     else:
-        print("The ticket is $15.")
+        print("the ticket is 15$")
 
 
 
